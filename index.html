@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo1.png">
+</head>
+<body> 
+    <main>
+        <img src="anime.png" alt="logo" class="logo">
+        <form>
+            <input type="text" placeholder="Enter Anime Name" id="search">
+            <button type="submit" class="btn btn-find" tabindex="-1">Search</button>
+            <button type="button" class="btn btn-random">Random</button>
+        </form>
+        <div class="loading d-none">
+           <img src="spining-cat-meme-unscreen.gif" alt="Loading cat animation" class="catanimation">
+        </div>
+        <div class="result"></div>
+    <script src="index.js" defer></script>
+</body>
+</html>
