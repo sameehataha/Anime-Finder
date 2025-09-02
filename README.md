@@ -11,8 +11,8 @@ A simple and elegant web application to search and discover anime series. Built 
 
 🚀 Demo
 Live Demo https://anime-finder2.netlify.app/
-🛠️ Technologies Used
 
+🛠️ Technologies Used
 HTML5 - Structure and semantics
 CSS3 - Styling and responsive design
 Vanilla JavaScript - Core functionality and API integration
